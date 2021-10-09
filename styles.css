@@ -1,0 +1,20 @@
+.container{
+    margin: 10vh auto;
+    width: 50vw;
+    border: 1px solid #adadad;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.row>div{
+    width: 20vw;
+    height: 20vh;
+    border: 1px solid #ccc;
+}
+.dblclicked{
+    background-color: green;
+}
+.clicked{
+    background-color: red;
+}
